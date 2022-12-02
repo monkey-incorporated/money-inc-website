@@ -1,6 +1,6 @@
 /* sidebar */
 
-#sidebar {
+sidebar {
     float: right;
     width: 200px;
     margin: 0 0 0 10px;
@@ -17,13 +17,46 @@ nav {
     margin: 0;
     padding: 0;
     list-style: none;
+
 }
 
-#nav li {
+/*title */
+
+h1 {
+    font-size: 1.5em;
     margin: 0;
     padding: 0;
+    background: #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* links */
+
+nav a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #000;
     border-bottom: 1px solid #ccc;
 }
+
+nav a:hover {
+    background: #ccc;
+}
+
+/* footer */
+
+footer {
+    clear: both;
+    padding: 10px;
+    background: rgb(174, 15, 15);
+    border-top: 1px solid #ccc;
+    text-align: center;
+}
+
+
 
 
 
